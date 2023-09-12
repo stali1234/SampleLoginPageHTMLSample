@@ -1,0 +1,41 @@
+
+ h1{
+                text-align: center;
+            }
+            #password{
+                color  : black;
+            }
+            form{
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 40%;
+            }
+
+            body{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+
+            button{
+                background: orange;
+                color:white;
+                padding: 1%;
+                font-size: 22px;
+                margin-top: 6px;
+                border: 0;
+                cursor: pointer;
+
+            }
+            label{
+                font-size: 20px;
+                font-weight: bold;
+                margin: 5px;
+            }
+
+            input{
+                height: 20px
+            }
