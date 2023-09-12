@@ -2,20 +2,44 @@
 <html>
     <head>
         <title>Signup Page</title>
+        <style>
+            h1{
+                text-align: center;
+            }
+            #password{
+                color  : rgb(234, 6, 6);
+            }
+            form{
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            body{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
     </head>
 
     <body>
+        <form action=""> 
         <h1>Signup Page</h1>
+        
          <label >First name</label>
          <input type="text" placeholder = "eg., stalin">
          <label >Last name</label>
          <input type="text" placeholder = "eg.,s">
          <label >Email</label>
          <input type="email"placeholder = "eg.,fuck@gmail.com">
-         <label >Password</label>
-         <input type="password" placeholder = "eg.,XD">
+         <label id = "password">Password</label>
+         <input  type="password" placeholder = "eg.,XD">
          <label >Mobile</label>
          <input type="tel" placeholder = "eg.,+91676">
          <button>Button</button>
+        </form>
     </body>
 </html>
